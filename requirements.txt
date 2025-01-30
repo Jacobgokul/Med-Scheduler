@@ -1,0 +1,11 @@
+fastapi==0.115.8
+uvicorn==0.34.0
+streamlit==1.41.1
+SQLAlchemy==2.0.37
+pyttsx3==2.98
+python-dotenv==1.0.1
+PyAudio==0.2.14
+langchain==0.3.17
+SpeechRecognition==3.14.1
+requests==2.32.3
+openai==1.60.2
