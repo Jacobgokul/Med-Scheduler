@@ -16,6 +16,8 @@ from database.models import Base, Appointment
 
 load_dotenv() # Load API key from .env
 openai_key = os.getenv("OPENAI_API_KEY")
+if not openai_key:
+    raise Exception("Kindly create and add OpenAI key in .env file")
 
 Base.metadata.create_all(engine)
 
